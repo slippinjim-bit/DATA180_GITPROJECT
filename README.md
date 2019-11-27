@@ -1,7 +1,9 @@
 # DATA 180 GitHub Project
 ## This is a sample project and Markdown file
 
-## This project is a sample of additional code written for SFU MACM 101.
+---
+### This project is code written for SFU MACM 101.
+I wrote this code to practice my coding and explore discreet math - it was not required and not dishonest to share
 
 ### Table of Contents
 | File          | Description   |
