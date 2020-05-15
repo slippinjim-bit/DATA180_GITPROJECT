@@ -7,6 +7,8 @@ from itertools import permutations
 def product(begin, end):
     assert begin <= end
     return reduce(lambda x, y: x*y, xrange(begin, end+1))
+    
+print("Math is fun")
 
 # Returns the number of permutations of size r chosen from n distinct objects.
 def P(n, r):
