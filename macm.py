@@ -26,7 +26,7 @@ def P_test():
     assert P(3, 1) == 3
     assert P(3, 2) == 6
     assert P(3, 3) == 6
-    print 'All P(n,r) tests passed!'
+    print ('All P(n,r) tests passed!')
 
 # Returns n!, i.e. 1*2*3*...*n. Note that 0!=1.
 def factorial(n):
@@ -50,11 +50,11 @@ def factorial_test():
 def print_perms(n):
     assert n > 0
     if n > 10:
-        print 'print_perms only works for 1 <= n <= 10'
+        print ('print_perms only works for 1 <= n <= 10')
         return
     items = [a for a in xrange(1, n+1)]
     for i,p in enumerate(permutations(items)):
-        print '%s  %s' % (p, i+1)
+        print ('%s  %s' % (p, i+1))
 
 # Returns the number of ways r things can be chosen from n objects, where the
 # order of the r things doesn't matter.
@@ -76,7 +76,7 @@ def C_test():
     assert C(3, 2) == 3
     assert C(3, 3) == 1
 
-    print 'All C(n,r) tests passed!'
+    print("All C(n,r) tests passed!")
 
 if __name__ == '__main__':
     P_test()
